@@ -13,9 +13,6 @@ a.navbar-brand {
     
 }
 
-#home2 {
-   background-color:black;
-}
 .name {
     font-size: 2em;
     margin: 25vh 15px 10vh 150px;
@@ -64,7 +61,7 @@ a.navbar-brand {
     
     color: white;
 }
-.vh-80 {
+.vh-83 {
     height:83vh;
 }
 .intro {
@@ -90,7 +87,7 @@ div {
 
 header {
     border-bottom: 2px groove black;
-   
+    background-color: rgba(0,0,0,0.5);
     background-size: contain;
 }
 
@@ -155,9 +152,11 @@ html {
   min-height: 100%;
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 0px;
+#body1 {
+    /* Margin bottom by footer height */
+    margin-bottom: 0px;
+    background: url("../lib/keyboard1.jpg") no-repeat center;
+    background-size: 100%;
 }
 
 #main {
